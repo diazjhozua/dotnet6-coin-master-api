@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>dotnet6_coin_master.api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotnet6-coin-master.contracts\dotnet6-coin-master.contracts.csproj" />
+    <ProjectReference Include="..\dotnet6-coin-master.application\dotnet6-coin-master.application.csproj" />
+    <ProjectReference Include="..\dotnet6-coin-master.infrastructure\dotnet6-coin-master.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

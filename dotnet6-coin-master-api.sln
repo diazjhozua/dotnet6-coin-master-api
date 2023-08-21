@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-coin-master.api", "dotnet6-coin-master.api\dotnet6-coin-master.api.csproj", "{A33EA456-A38D-4FC5-A52E-AD81BB6B2288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-coin-master.application", "dotnet6-coin-master.application\dotnet6-coin-master.application.csproj", "{86211BF4-F83C-47FA-8F4E-3103694B7E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-coin-master.contracts", "dotnet6-coin-master.contracts\dotnet6-coin-master.contracts.csproj", "{585E75F1-3F70-4E36-B322-49160B163EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-coin-master.domain", "dotnet6-coin-master.domain\dotnet6-coin-master.domain.csproj", "{77F078AF-6E0B-4102-A057-DAAF915BEE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet6-coin-master.infrastructure", "dotnet6-coin-master.infrastructure\dotnet6-coin-master.infrastructure.csproj", "{4ED9017A-AF5E-4A05-B89F-232A18EF5F71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A33EA456-A38D-4FC5-A52E-AD81BB6B2288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33EA456-A38D-4FC5-A52E-AD81BB6B2288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33EA456-A38D-4FC5-A52E-AD81BB6B2288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33EA456-A38D-4FC5-A52E-AD81BB6B2288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86211BF4-F83C-47FA-8F4E-3103694B7E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86211BF4-F83C-47FA-8F4E-3103694B7E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86211BF4-F83C-47FA-8F4E-3103694B7E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86211BF4-F83C-47FA-8F4E-3103694B7E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585E75F1-3F70-4E36-B322-49160B163EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585E75F1-3F70-4E36-B322-49160B163EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585E75F1-3F70-4E36-B322-49160B163EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585E75F1-3F70-4E36-B322-49160B163EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F078AF-6E0B-4102-A057-DAAF915BEE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F078AF-6E0B-4102-A057-DAAF915BEE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F078AF-6E0B-4102-A057-DAAF915BEE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F078AF-6E0B-4102-A057-DAAF915BEE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED9017A-AF5E-4A05-B89F-232A18EF5F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED9017A-AF5E-4A05-B89F-232A18EF5F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED9017A-AF5E-4A05-B89F-232A18EF5F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED9017A-AF5E-4A05-B89F-232A18EF5F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
